@@ -1,0 +1,10 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 训练产物（跑 python test.py / transformer_numpy.py 会重新生成）
+model.pt
+model.npz
+
+# 本地工具目录
+.mimosa/
